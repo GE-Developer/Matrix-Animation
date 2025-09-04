@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1FDBF6E52E6A03B10025DE31 /* MatrixAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBF6E22E6A03B10025DE31 /* MatrixAnimationApp.swift */; };
+		1FDBF6E62E6A03B10025DE31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDBF6DE2E6A03B10025DE31 /* Preview Assets.xcassets */; };
+		1FDBF6E72E6A03B10025DE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDBF6E02E6A03B10025DE31 /* Assets.xcassets */; };
+		1FDBF6ED2E6A045A0025DE31 /* LetterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBF6EC2E6A045A0025DE31 /* LetterType.swift */; };
+		1FDBF6EF2E6A04670025DE31 /* MatrixAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBF6EE2E6A04670025DE31 /* MatrixAnimationView.swift */; };
+		1FDBF6F12E6A04B80025DE31 /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBF6F02E6A04B80025DE31 /* MaskView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1FDBF6C42E69FF7D0025DE31 /* Matrix Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matrix Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDBF6DE2E6A03B10025DE31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FDBF6E02E6A03B10025DE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FDBF6E22E6A03B10025DE31 /* MatrixAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixAnimationApp.swift; sourceTree = "<group>"; };
+		1FDBF6EC2E6A045A0025DE31 /* LetterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterType.swift; sourceTree = "<group>"; };
+		1FDBF6EE2E6A04670025DE31 /* MatrixAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixAnimationView.swift; sourceTree = "<group>"; };
+		1FDBF6F02E6A04B80025DE31 /* MaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1FDBF6C62E69FF7D0025DE31 /* Matrix Animation */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Matrix Animation";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1FDBF6C12E69FF7D0025DE31 /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		1FDBF6BB2E69FF7D0025DE31 = {
 			isa = PBXGroup;
 			children = (
-				1FDBF6C62E69FF7D0025DE31 /* Matrix Animation */,
+				1FDBF6E32E6A03B10025DE31 /* Matrix Animation */,
 				1FDBF6C52E69FF7D0025DE31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,59 @@
 				1FDBF6C42E69FF7D0025DE31 /* Matrix Animation.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1FDBF6DF2E6A03B10025DE31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FDBF6DE2E6A03B10025DE31 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FDBF6E32E6A03B10025DE31 /* Matrix Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1FDBF6E92E6A04060025DE31 /* App */,
+				1FDBF6EA2E6A04100025DE31 /* Views */,
+				1FDBF6EB2E6A04170025DE31 /* Enums */,
+				1FDBF6E82E6A03FC0025DE31 /* Resources */,
+				1FDBF6DF2E6A03B10025DE31 /* Preview Content */,
+			);
+			path = "Matrix Animation";
+			sourceTree = "<group>";
+		};
+		1FDBF6E82E6A03FC0025DE31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FDBF6E02E6A03B10025DE31 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1FDBF6E92E6A04060025DE31 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1FDBF6E22E6A03B10025DE31 /* MatrixAnimationApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1FDBF6EA2E6A04100025DE31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FDBF6EE2E6A04670025DE31 /* MatrixAnimationView.swift */,
+				1FDBF6F02E6A04B80025DE31 /* MaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FDBF6EB2E6A04170025DE31 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				1FDBF6EC2E6A045A0025DE31 /* LetterType.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +119,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1FDBF6C62E69FF7D0025DE31 /* Matrix Animation */,
 			);
 			name = "Matrix Animation";
 			packageProductDependencies = (
@@ -109,6 +166,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FDBF6E62E6A03B10025DE31 /* Preview Assets.xcassets in Resources */,
+				1FDBF6E72E6A03B10025DE31 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FDBF6F12E6A04B80025DE31 /* MaskView.swift in Sources */,
+				1FDBF6EF2E6A04670025DE31 /* MatrixAnimationView.swift in Sources */,
+				1FDBF6ED2E6A045A0025DE31 /* LetterType.swift in Sources */,
+				1FDBF6E52E6A03B10025DE31 /* MatrixAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +321,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -267,9 +330,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "GE-Developer.Matrix-Animation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -287,8 +354,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,9 +363,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "GE-Developer.Matrix-Animation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
